@@ -1,5 +1,6 @@
 ---
 title: Homepage
+my_number: 5
 ---
 <!DOCTYPE html>
 <html>
@@ -8,6 +9,7 @@ title: Homepage
     <title>{{ page.title }}</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1>{{'HELLO WORLD!' | downcase }}</h1>
+    <p>{{ page.my_number }}</p>
   </body>
 </html>
