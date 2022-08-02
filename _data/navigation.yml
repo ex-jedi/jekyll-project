@@ -6,3 +6,5 @@
   link: /test.html
 - name: blog
   link: /blog.html
+- name: staff
+  link: /staff.html
