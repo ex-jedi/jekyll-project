@@ -2,6 +2,10 @@ body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.nav-link:not(:last-of-type) {
+  padding-right: 2rem;
+}
+
 .current-nav-link {
   color: red;
 }
